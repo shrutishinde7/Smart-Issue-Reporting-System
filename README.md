@@ -1,6 +1,14 @@
 # Smart Community Issue Reporting System
 
-A full-stack web application for citizens to report community issues with GPS location, AI categorization, and real-time admin management. Built for smart cities and civic engagement.
+> A full-stack web application for citizens to report community issues with GPS location, AI categorization, and real-time admin management. Built for smart cities and civic engagement.
+
+## Problem Statement
+
+Urban communities often face challenges in reporting and managing local issues such as potholes, broken streetlights, and sanitation problems. Traditional reporting methods are inefficient, leading to delayed responses and unresolved issues. There is a need for a streamlined, user-friendly platform that enables citizens to report issues easily while providing administrators with tools to manage and resolve them effectively.
+
+## Solution
+
+Jagruk is a web application that allows citizens to report local issues with GPS-tagged locations and AI-powered categorization. The platform features an interactive map for visualizing reported issues, a dashboard for administrators to track and manage reports, and community voting to prioritize resolutions. Built with React, Node.js, and MongoDB, the system integrates services like Appwrite for authentication, Cloudinary for image handling, and OpenRouter AI for issue categorization.
 
 ## Features
 
@@ -44,6 +52,8 @@ npm run dev
 
 ### Environment Variables
 
+Setup your `.env` files with the following variables:
+
 **Backend (.env):**
 ```env
 PORT=3000
@@ -82,10 +92,6 @@ Access: Frontend at `http://localhost:5173`, Backend at `http://localhost:3000`
 4. Submit a pull request
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
-
-## Hacktoberfest 2025
-
-Participating in Hacktoberfest! Check [Issues](https://github.com/tilakjain619/Smart-Community-Issue-Reporting-System/issues) for `hacktoberfest` labeled tasks.
 
 ## License
 
